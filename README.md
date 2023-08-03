@@ -1,2 +1,25 @@
 # AWS-CI-CD-Project
 Complete Project on AWS using CODE COMMIT and CODE BUILD
+
+AWS Services used:
+1. AWS BeanStalk
+2. AWS RDS
+3. S3
+4. AWS CodeCommit
+5. AWS CodeBuild
+
+STEPS TAKEN:-
+- -> Log to AWS Account
+- -> Create Key-pair
+- -> Create Elastic Beanstalk Environment
+- -> Create RDS
+- -> Allow port 3306 in RDS SG from Beanstalk SG
+- -> Initialize database
+     - SSH to Beanstalk
+     - Install mysql client and login to RDS
+     - Deploy db_backup.sql file
+- -> Update health check to /login in Target Group
+- -> Build and Deploy artifact to Beanstalk
+- -> Create CodeCommit Repo
+- -> Clone the Git repo to CodeCommit Repo
+- -> Configure CodeBuild
