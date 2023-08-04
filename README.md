@@ -24,4 +24,6 @@ STEPS TAKEN:-
 - -> Clone the Git repo to CodeCommit Repo
 - -> Configure CodeBuild
 - -> Edit Build Commands and replace it with the commands in buildspec file(remember to update the commands)
-- 
+- -> Start the build
+- -> Configure CopePipeline
+- -> Test the URL
