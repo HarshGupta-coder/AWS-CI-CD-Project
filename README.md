@@ -23,3 +23,5 @@ STEPS TAKEN:-
 - -> Create CodeCommit Repo
 - -> Clone the Git repo to CodeCommit Repo
 - -> Configure CodeBuild
+- -> Edit Build Commands and replace it with the commands in buildspec file(remember to update the commands)
+- 
