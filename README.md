@@ -1,5 +1,5 @@
 # AWS-CI-CD-Project
-Complete Project on AWS using CODE COMMIT and CODE BUILD
+Set up CI/CD pipeline on AWS
 
 AWS Services used:
 1. AWS BeanStalk
